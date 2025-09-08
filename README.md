@@ -1,4 +1,3 @@
-````markdown
 API Gateway
 
 Overview
@@ -28,7 +27,7 @@ Features
 ---
 
 Project Structure
-
+```plaintext
 project-root/
 │
 ├── .gitignore
@@ -61,7 +60,7 @@ project-root/
 │   └── test_routing.py          # Dummy backend service for testing
 │
 └── __pycache__/                 # Compiled Python cache files
-
+```
 ---
 
 Running the Gateway
