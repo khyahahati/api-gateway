@@ -4,7 +4,7 @@ from fastapi.responses import JSONResponse
 from starlette.middleware.base import BaseHTTPMiddleware
 from jose import jwt, JWTError, ExpiredSignatureError
 from datetime import datetime, timedelta, timezone
-from src.core.logging import LoggerMixin
+from .logging import LoggerMixin
 
 # JWT configuration
 SECRET_KEY = os.getenv("JWT_SECRET", "supersecretjwtkey")

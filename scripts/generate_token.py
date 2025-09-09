@@ -13,6 +13,5 @@ if __name__ == "__main__":
     # Generate JWT token (expires in 1 hour by default)
     token = create_jwt_token(user_data)
 
-    print("✅ Generated JWT Token:")
+    print("Generated JWT Token:")
     print(token)
-    print("\nUse this token as a Bearer token in Postman or API requests.")
