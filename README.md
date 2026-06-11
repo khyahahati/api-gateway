@@ -21,10 +21,11 @@
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/khyahahati/api-gateway
-   cd digital-wallet
+   
 2. **Start the API Gateway:**
    ```bash
    uvicorn src.main:app --reload --port 8000
+   
 3. **Start the dummy backend service (for testing):**
    ```bash
    uvicorn tests.test_routing:app --reload --port 9000
